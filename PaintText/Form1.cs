@@ -54,6 +54,16 @@ namespace PaintText
 
         private void ETXT_Click(object sender, EventArgs e)
         {
+            ETXT frm = new ETXT();
+            frm.Show();
+
+            this.Hide();
+        }
+
+
+        private void Close_Click_1(object sender, EventArgs e)
+        {
+            Close();
 
         }
     }
