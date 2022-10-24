@@ -28,57 +28,70 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.Paint = new System.Windows.Forms.Button();
             this.ETXT = new System.Windows.Forms.Button();
+            this.Menuuu = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.Font = new System.Drawing.Font("Lucida Calligraphy", 25.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(274, 47);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(274, 59);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = "Menú";
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Paint
             // 
-            this.Paint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.Paint.BackColor = System.Drawing.Color.White;
+            this.Paint.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.Paint.FlatAppearance.BorderSize = 3;
+            this.Paint.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.Paint.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.Paint.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Paint.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Paint.Location = new System.Drawing.Point(333, 150);
+            this.Paint.Location = new System.Drawing.Point(387, 184);
             this.Paint.Name = "Paint";
             this.Paint.Size = new System.Drawing.Size(162, 61);
             this.Paint.TabIndex = 1;
             this.Paint.Text = "Paint";
             this.Paint.UseVisualStyleBackColor = false;
-            this.Paint.Click += new System.EventHandler(this.button1_Click);
+            this.Paint.Click += new System.EventHandler(this.PaintClick);
             // 
             // ETXT
             // 
-            this.ETXT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.ETXT.BackColor = System.Drawing.Color.White;
+            this.ETXT.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.ETXT.FlatAppearance.BorderSize = 3;
+            this.ETXT.FlatAppearance.MouseDownBackColor = System.Drawing.Color.White;
+            this.ETXT.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.ETXT.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ETXT.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.ETXT.Location = new System.Drawing.Point(298, 230);
+            this.ETXT.Location = new System.Drawing.Point(271, 251);
             this.ETXT.Name = "ETXT";
             this.ETXT.Size = new System.Drawing.Size(230, 83);
             this.ETXT.TabIndex = 2;
             this.ETXT.Text = "Editor de texto";
             this.ETXT.UseVisualStyleBackColor = false;
+            this.ETXT.Click += new System.EventHandler(this.ETXT_Click);
+            // 
+            // Menuuu
+            // 
+            this.Menuuu.AutoSize = true;
+            this.Menuuu.BackColor = System.Drawing.Color.White;
+            this.Menuuu.Font = new System.Drawing.Font("Lucida Calligraphy", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Menuuu.Location = new System.Drawing.Point(55, 27);
+            this.Menuuu.Name = "Menuuu";
+            this.Menuuu.Size = new System.Drawing.Size(309, 60);
+            this.Menuuu.TabIndex = 3;
+            this.Menuuu.Text = "❤Menú ❤";
+            this.Menuuu.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(859, 458);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(837, 502);
+            this.Controls.Add(this.Menuuu);
             this.Controls.Add(this.ETXT);
             this.Controls.Add(this.Paint);
-            this.Controls.Add(this.textBox1);
+            this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -88,9 +101,8 @@
         }
 
         #endregion
-
-        private TextBox textBox1;
         private Button Paint;
         private Button ETXT;
+        private Label Menuuu;
     }
 }
