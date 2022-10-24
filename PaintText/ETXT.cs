@@ -139,5 +139,19 @@ namespace PaintText
             }
         }
 
+        private void edicion_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Menuuu_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ETXT_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

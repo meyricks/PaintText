@@ -157,25 +157,28 @@
             // 
             // abrir
             // 
+            this.abrir.Image = global::PaintText.Properties.Resources.correo_abierto;
             this.abrir.Name = "abrir";
             this.abrir.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
-            this.abrir.Size = new System.Drawing.Size(195, 26);
+            this.abrir.Size = new System.Drawing.Size(224, 26);
             this.abrir.Text = "Abrir";
             this.abrir.Click += new System.EventHandler(this.abrir_Click);
             // 
             // guardar
             // 
+            this.guardar.Image = global::PaintText.Properties.Resources.salvar;
             this.guardar.Name = "guardar";
             this.guardar.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.guardar.Size = new System.Drawing.Size(195, 26);
+            this.guardar.Size = new System.Drawing.Size(224, 26);
             this.guardar.Text = "Guardar";
             this.guardar.Click += new System.EventHandler(this.guardar_Click);
             // 
             // cerrar
             // 
+            this.cerrar.Image = ((System.Drawing.Image)(resources.GetObject("cerrar.Image")));
             this.cerrar.Name = "cerrar";
             this.cerrar.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.cerrar.Size = new System.Drawing.Size(195, 26);
+            this.cerrar.Size = new System.Drawing.Size(224, 26);
             this.cerrar.Text = "Cerrar";
             this.cerrar.Click += new System.EventHandler(this.cerrar_Click);
             // 
@@ -194,6 +197,7 @@
             this.edicion.Name = "edicion";
             this.edicion.Size = new System.Drawing.Size(72, 24);
             this.edicion.Text = "Edición";
+            this.edicion.Click += new System.EventHandler(this.edicion_Click);
             // 
             // atras
             // 
@@ -368,6 +372,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "ETXT";
             this.Text = "ETXT";
+            this.Load += new System.EventHandler(this.ETXT_Load_1);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);
