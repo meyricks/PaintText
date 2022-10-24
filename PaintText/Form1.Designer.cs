@@ -51,7 +51,7 @@
             // 
             this.Paint.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.Paint.Font = new System.Drawing.Font("Palatino Linotype", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Paint.Location = new System.Drawing.Point(331, 147);
+            this.Paint.Location = new System.Drawing.Point(316, 149);
             this.Paint.Name = "Paint";
             this.Paint.Size = new System.Drawing.Size(162, 61);
             this.Paint.TabIndex = 1;
