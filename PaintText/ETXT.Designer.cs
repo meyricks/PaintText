@@ -86,9 +86,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Impact", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.SystemColors.Window;
-            this.button1.Location = new System.Drawing.Point(747, 462);
+            this.button1.Location = new System.Drawing.Point(689, 462);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(84, 39);
+            this.button1.Size = new System.Drawing.Size(133, 39);
             this.button1.TabIndex = 5;
             this.button1.Text = "Cerrar";
             this.button1.UseVisualStyleBackColor = false;
@@ -103,7 +103,7 @@
             this.GoBack.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.GoBack.Font = new System.Drawing.Font("Impact", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.GoBack.ForeColor = System.Drawing.SystemColors.Window;
-            this.GoBack.Location = new System.Drawing.Point(12, 462);
+            this.GoBack.Location = new System.Drawing.Point(22, 462);
             this.GoBack.Name = "GoBack";
             this.GoBack.Size = new System.Drawing.Size(133, 39);
             this.GoBack.TabIndex = 6;

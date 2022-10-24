@@ -105,7 +105,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(837, 502);
+            this.ClientSize = new System.Drawing.Size(847, 515);
             this.Controls.Add(this.Close);
             this.Controls.Add(this.Menuuu);
             this.Controls.Add(this.ETXT);
