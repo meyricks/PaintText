@@ -75,7 +75,6 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 60);
             this.label1.TabIndex = 0;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
@@ -153,7 +152,6 @@
             this.archivo.Name = "archivo";
             this.archivo.Size = new System.Drawing.Size(73, 24);
             this.archivo.Text = "Archivo";
-            this.archivo.Click += new System.EventHandler(this.archivoToolStripMenuItem_Click);
             // 
             // abrir
             // 
@@ -197,7 +195,6 @@
             this.edicion.Name = "edicion";
             this.edicion.Size = new System.Drawing.Size(72, 24);
             this.edicion.Text = "Edición";
-            this.edicion.Click += new System.EventHandler(this.edicion_Click);
             // 
             // atras
             // 
@@ -348,7 +345,6 @@
             this.richTextBox1.Size = new System.Drawing.Size(800, 386);
             this.richTextBox1.TabIndex = 12;
             this.richTextBox1.Text = "";
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // openFileDialog1
             // 
@@ -372,7 +368,6 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "ETXT";
             this.Text = "ETXT";
-            this.Load += new System.EventHandler(this.ETXT_Load_1);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.toolStrip1.ResumeLayout(false);

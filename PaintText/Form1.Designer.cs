@@ -79,7 +79,6 @@
             this.Menuuu.Size = new System.Drawing.Size(309, 60);
             this.Menuuu.TabIndex = 3;
             this.Menuuu.Text = "❤Menú ❤";
-            this.Menuuu.Click += new System.EventHandler(this.label1_Click);
             // 
             // Close
             // 
@@ -113,7 +112,6 @@
             this.DoubleBuffered = true;
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -17,16 +17,6 @@ namespace PaintText
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ETXT_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -38,16 +28,6 @@ namespace PaintText
             ventana.Show();
 
             this.Close();
-        }
-
-        private void richTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void archivoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void st_Click(object sender, EventArgs e)
@@ -137,21 +117,6 @@ namespace PaintText
             {
                 richTextBox1.SelectionFont = new Font(richTextBox1.Font.SystemFontName, float.Parse(ComboBox1.SelectedItem.ToString()), richTextBox1.Font.Style);
             }
-        }
-
-        private void edicion_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Menuuu_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void ETXT_Load_1(object sender, EventArgs e)
-        {
-
         }
     }
 }
